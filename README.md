@@ -58,11 +58,11 @@ python main.py
 
 ## Download DICOM directory
 
-## Download [dicompyler](https://github.com/bastula/dicompyler/releases/download/release-0.4.2/dicompyler_setup-0.4.2.win32.exe)
+## Download [Dicompyler](https://github.com/bastula/dicompyler/releases/download/release-0.4.2/dicompyler_setup-0.4.2.win32.exe)
 
-## Show results with dicompyler
+## Show results with Dicompyler
 Pay attention to the Chinese path.
 
 ## Reference
-https://github.com/Project-MONAI/model-zoo
-https://monai.io/model-zoo.html
+- https://github.com/Project-MONAI/model-zoo
+- https://monai.io/model-zoo.html
