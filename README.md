@@ -25,11 +25,6 @@ cd monai_wholeBody_ct_segmentation
 pip install -r requirements.txt
 ```
 
-## Setting the directory
-```
-cd models/wholeBody_ct_segmentation/
-```
-
 ## Execute inference
 It will cost about three minutes.
 Check NIFTI directory after run done.
