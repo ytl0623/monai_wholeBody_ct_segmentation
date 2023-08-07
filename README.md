@@ -59,9 +59,11 @@ python main.py
 ## Download DICOM directory
 
 ## Download [Dicompyler](https://github.com/bastula/dicompyler/releases/download/release-0.4.2/dicompyler_setup-0.4.2.win32.exe)
+![螢幕擷取畫面 2023-08-07 162717](https://github.com/ytl0623/monai_wholeBody_ct_segmentation/assets/55120101/f39cea95-7d57-46a8-a707-db328cf8be0d)
 
 ## Show results with Dicompyler
 Pay attention to the Chinese path.
+![螢幕擷取畫面 2023-08-07 162941](https://github.com/ytl0623/monai_wholeBody_ct_segmentation/assets/55120101/9c8714fd-b28a-4493-895d-28ec621c1047)
 
 ## Reference
 - https://github.com/Project-MONAI/model-zoo
