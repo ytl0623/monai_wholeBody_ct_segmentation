@@ -12,7 +12,7 @@
     "output_dir": "$@bundle_root + '/NIFTI'",
     "dataset_dir": "DICOM",
     "datalist": "$list(sorted(glob.glob(@dataset_dir + '/DLCSI033.nii.gz')))",
-    "device": "$torch.device('cpu' if torch.cuda.is_available() else 'cpu')",
+    "device": "$torch.device('cuda' if torch.cuda.is_available() else 'cpu')",
     "pixdim": "$[1.5, 1.5, 1.5] if @displayable_configs#highres else [3.0, 3.0, 3.0]",
     "modelname": "$'model.pt' if @displayable_configs#highres else 'model_lowres.pt'",
     "network_def": {
