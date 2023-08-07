@@ -67,5 +67,6 @@ Pay attention to the Chinese path.
 ![Show results with Dicompyler](https://github.com/ytl0623/monai_wholeBody_ct_segmentation/assets/55120101/9c8714fd-b28a-4493-895d-28ec621c1047)
 
 ## Reference
+- https://github.com/Kiragroh/Kira_DICOM-RT-Anonymizer-MG
 - https://github.com/Project-MONAI/model-zoo
 - https://monai.io/model-zoo.html
