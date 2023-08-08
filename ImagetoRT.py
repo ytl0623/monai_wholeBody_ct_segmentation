@@ -17,7 +17,7 @@ class ImagetoRT():
 		self.DICOM_RT = DICOM_RT
 		self.ROINumberStart = len(AILabel)
 		self.AILabel = [ 'MONAI_'+labelName for labelName in AILabel]
-		print(self.AILabel)
+		#print(self.AILabel)
 
 	def __call__(self):
 		self.setStructureSetROISequence()
@@ -31,7 +31,7 @@ class ImagetoRT():
 	def setROIContourSequence(self):
 		print('set ROI Contour Sequence.' )
 		ROINumber = 500
-		print(len(self.DICOM_RT.ROIContourSequence))
+		#print(len(self.DICOM_RT.ROIContourSequence))
 		for i in range(self.DataBaseLen):
 			MyROIContourSequence = pydicom.Dataset()
 			ROINumber = ROINumber + 1
@@ -69,7 +69,7 @@ class ImagetoRT():
 		# assert l==self.itemLen, 'MONAI_tag沒對應到資料夾'
 
 		for i in range(self.itemLen):
-			print(self.DataBase[i][0])
+			#print(self.DataBase[i][0])
 			if(self.DataBase[i][0] == name):
 				data = self.DataBase[i][1]
 				break
@@ -88,7 +88,7 @@ class ImagetoRT():
 
 	def getContourSequence(self, itemName):
 		print('get Contour Sequence.' )
-		print(itemName)
+		#print(itemName)
 		contourData = self.getDataCoordination(itemName)
 		AllContourSequence = []
 		# slice

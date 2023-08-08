@@ -68,5 +68,6 @@ Pay attention to the Chinese path.
 
 ## Reference
 - https://github.com/Kiragroh/Kira_DICOM-RT-Anonymizer-MG
+- https://github.com/rordenlab/dcm2niix
 - https://github.com/Project-MONAI/model-zoo
 - https://monai.io/model-zoo.html
