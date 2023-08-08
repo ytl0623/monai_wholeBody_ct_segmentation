@@ -1,6 +1,6 @@
 # monai_wholeBody_ct_segmentation
 You can run code with your own PC/Notebook/... or on Google Colab.
-<a href="https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+<a href="https://colab.research.google.com/github/ytl0623/monai_wholeBody_ct_segmentation/blob/master/monai_wholeBody_ct_segmentation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
 ## Create a virtual environment
 ```
